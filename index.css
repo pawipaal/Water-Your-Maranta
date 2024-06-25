@@ -1,0 +1,54 @@
+body {
+    background-image: url("maranta.jpg");
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100hv;
+}
+
+.container {
+    max-width: 80%; 
+    margin: auto; 
+}
+
+p {
+    padding-bottom: 60%; 
+    color: #402a23;
+    font-size: 17px;    
+}
+
+h1 {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    color: #402a23
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #402a23
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #402a23;
+    color: white;
+}
+
+#save-btn {
+    background: lightgrey;
+    color: #402a23; 
+}
+
